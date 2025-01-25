@@ -14,13 +14,15 @@ public abstract class Employee {
         return employeeId;
 
     }
+    public int getSalary(){
+        return baseSalary;
+    }
+
     public void setEmployeeId(int employeeId){
         this.employeeId=employeeId;
 
     }
-    public int calculateSalary(){
-        return baseSalary;
-    };
+    public abstract double calculateSalary();
     public void displayDetails(){
         System.out.println("The EmployerID of employee :- "+employeeId);
         System.out.println("The name of employee :- "+name);

@@ -10,8 +10,8 @@ public class PartTimeEmployee extends Employee implements Department{
         this.perHour=perHour;
 
     }
-    public int calculateSalary(){
-        return perHour*super.calculateSalary();
+    public double calculateSalary(){
+        return perHour*super.getSalary();
     }
 
     @Override

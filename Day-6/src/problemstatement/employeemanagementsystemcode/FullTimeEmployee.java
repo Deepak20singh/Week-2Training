@@ -9,8 +9,8 @@ public class FullTimeEmployee extends Employee implements Department{
         this.timing=timing;
 
     }
-    public int calculateSalary(){
-        return timing*super.calculateSalary();
+    public double calculateSalary(){
+        return timing*super.getSalary();
     }
 
     @Override

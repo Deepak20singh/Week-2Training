@@ -1,6 +1,6 @@
-package problemstatement.bankingsystem;
+package problemstatement.employeemanagementsystemcode;
 
-public class BankingSystemMain {
+public class EmployeeManagementSystemMain {
     public static void main(String[] args) {
         Employee emp=new FullTimeEmployee(582300,230000,"Dev",8);
         emp.displayDetails();

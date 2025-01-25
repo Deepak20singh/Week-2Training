@@ -1,4 +1,4 @@
-package problemstatement.bankingsystem;
+package problemstatement.employeemanagementsystemcode;
 
 public abstract class Employee {
     private int employeeId,baseSalary;

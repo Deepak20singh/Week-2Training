@@ -1,4 +1,4 @@
-package problemstatement.bankingsystem;
+package problemstatement.employeemanagementsystemcode;
 
 public class FullTimeEmployee extends Employee implements Department{
     private int timing;

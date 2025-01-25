@@ -1,4 +1,4 @@
-package problemstatement.bankingsystem;
+package problemstatement.employeemanagementsystemcode;
 
 public interface Department {
    default void assignDepartment(String department){
